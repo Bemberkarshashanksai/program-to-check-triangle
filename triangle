@@ -1,0 +1,15 @@
+x=int(input("side1 :"))
+y=int(input("side2 :"))
+z=int(input("side3 :"))
+
+if x==y==z:
+    print("EQUILATERAL TRIANGLE")
+elif x==y or y==z or z==x:
+    print("ISOSCELES TRIANGLE")
+else:
+    print("SCALENE TRIANGLE")
+
+
+
+
+    
